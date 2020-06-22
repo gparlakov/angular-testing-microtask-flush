@@ -27,7 +27,7 @@ describe('Integration::HelloComponent', () => {
     
     // when
     comp.login();
-    flushMicrotasks();
+    //flushMicrotasks();
 
     // then
     expect(router.navigate).toHaveBeenCalledWith(['/login']);
